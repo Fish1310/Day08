@@ -3,6 +3,6 @@
 }
 
 .splide__slide.is-active img {
-  transform: scale(1.1); /* Agrandit l'image centrale */
-  z-index: 1; /* Met en avant l'image centrale */
+  transform: scale(1.1); 
+  z-index: 1; 
 }

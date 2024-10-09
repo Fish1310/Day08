@@ -4,6 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     perPage    : 3,
     autoplay   : true,
     interval   : 5000, // 5 secondes
-    focus      : 'center', // Met l'image centrale en avant
+    focus      : 'center',
   }).mount();
 });

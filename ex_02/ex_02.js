@@ -13,14 +13,9 @@ var schools = [
 ];
 
 schools.forEach(function(school) {
-  var icon = L.divIcon({
-    html: `
-      <div style="text-align: center;">
-        <img src="epitech-logo.png" alt="Epitech Logo" style="width: 40px; height: 40px;">
-        <div style="font-weight: bold; margin-top: 4px;">${school.name}</div>
-      </div>`,
-    iconSize: [40, 55], 
-    className: "custom-icon"
+  var icon = L.icon({
+    iconUrl: 'epitech-logo.png',
+    iconSize: [40, 40], 
   });
 
   L.marker(school.coords, { icon: icon })

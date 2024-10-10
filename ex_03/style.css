@@ -1,0 +1,11 @@
+/* Style pour l'image, le carré, le bouton, et la vidéo */
+#image, #square, #button, #video {
+    margin: 20px;
+  }
+  
+  #square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  

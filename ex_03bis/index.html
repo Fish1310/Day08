@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 03bis - Tooltip au chargement</title>
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <img src="ex_03/image.jpg" alt="Image" id="image" width="200">
+  <div id="square"></div>
+  <audio id="sound" controls>
+    <source src="ex_03/sound.mp3" type="audio/mp3">
+    Votre navigateur ne supporte pas l'élément audio.
+  </audio>
+  <button id="button">Cliquez-moi</button>
+  <video id="video" width="320" height="240" controls>
+    <source src="ex_03/video.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+  </video>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="ex_03bis.js"></script>
+</body>
+</html>
